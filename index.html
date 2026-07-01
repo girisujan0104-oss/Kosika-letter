@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Kosika ❤️</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe Script', cursive, Arial;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Floating hearts */
+.heart {
+    position: absolute;
+    color: rgba(255, 0, 80, 0.8);
+    font-size: 20px;
+    animation: float 6s linear infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(100vh) scale(1); opacity: 0; }
+    50% { opacity: 1; }
+    100% { transform: translateY(-10vh) scale(1.3); opacity: 0; }
+}
+
+/* Letter Box */
+.letter {
+    background: rgba(255,255,255,0.95);
+    padding: 30px 25px;
+    max-width: 500px;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    text-align: center;
+    overflow-y: auto;
+    max-height: 85vh;
+}
+
+h1 {
+    color: #ff3f6c;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #333;
+    white-space: pre-line;
+}
+
+.signature {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff3f6c;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Hearts Animation -->
+<script>
+for(let i=0;i<35;i++){
+    let heart = document.createElement("div");
+    heart.innerHTML = "❤️";
+    heart.className = "heart";
+    heart.style.left = Math.random()*100 + "vw";
+    heart.style.animationDuration = (3 + Math.random()*5) + "s";
+    heart.style.fontSize = (14 + Math.random()*26) + "px";
+    heart.style.top = Math.random()*100 + "vh";
+    document.body.appendChild(heart);
+}
+</script>
+
+<!-- Letter Content -->
+<div class="letter">
+    <h1>Dear Kosika 💝</h1>
+
+    <p>
+I know we were together for only a short time, but in that little time, you became someone truly special to me. What I felt with you was real, something I had never felt before, and I still carry that feeling in my heart.
+
+I'm deeply sorry for the mistakes I made and for the pain I caused you 😭. You never deserved that. I regret every moment I couldn't love you the way you deserved, and I take full responsibility for that.
+
+I'm not writing this to confuse you or to hurt you again. I just want to share my true feelings with you—honestly, calmly, and with respect.
+
+Even now, my heart still cares for you.
+Every time I see you, it feels like I fall in love all over again. Your smile, your presence, your vibe… they still make my day brighter. I feel amazing just seeing you. ✨❤️
+
+I know you've told me that you want to focus on yourself and that you're not interested in love. I respect that from my heart. I understand that you need time to heal, grow, and find yourself again. More than loving you, I want you to be happy and peaceful. Even if I'm not a part of your life right now, I still pray for your smile, your success, and your happiness every single day 🥰.
+
+If you ever feel ready, and if you decide to give me another chance, I promise I will show you what real love means—with trust, loyalty, care, honesty, and respect. I'll love you in a way that makes you feel safe, valued, and never alone.
+
+And if that day never comes…
+I will still understand.
+I will still respect you.
+Because loving you means wanting the best for you, even if that means loving you silently and waiting quietly.
+
+No pressure.
+No force.
+No expectations.
+Just my honest heart.
+
+I may not be perfect, but I am real. I'm still learning how to express love, but I know that what I feel for you is genuine. If you ever give me one last chance, I'll try my best every day to make you smile, to support you, and to never hurt you again.
+
+I promise I will always stand by you in every situation until my last breath 😘.
+
+Thank you for being someone so beautiful in my life, even for a short time. No matter what happens, you will always have a special place in my heart. ❤️
+
+Let's forget our past, forgive each other, and start a new journey of love. I promise that I will never break your trust and never hurt you.
+    </p>
+
+    <div class="signature">
+        — Yours Always,<br>
+        Sujan ❤️
+    </div>
+</div>
+
+</body>
+</html>
